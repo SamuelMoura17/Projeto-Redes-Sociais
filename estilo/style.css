@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    height: 97vh;
+
+    background: black url('../imagens/fundo-madeira.jpg') center center no-repeat fixed;
+    background-size: cover;
+
+}
+
+div#container{
+
+    height: 97vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+iframe.home{
+
+    background: black url('../imagens/tela-home.jpg') center center no-repeat;
+    background-size: contain;
+
+    position: absolute;
+
+    top: 10;
+
+    width: clamp(267px, 20.1vw, 350px);
+    height: clamp(470px, 36vw, 650px);
+
+}
+
+div#botoes{
+
+    position: absolute;
+
+    top: 10px;
+    right: 0px;
+
+    padding: 10px;
+
+}
+
+img.direcao{
+    width: 3.8vw;
+
+    border-radius: 50%;
+    
+    display: block;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+    border: 2px solid transparent;
+
+    transition: transform 0.3s, border 1.5s;
+
+}
+
+img.direcao:hover{
+
+
+    transform: scale(1.1) translateY(-3px) translateX(-5px);
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+
+    border: 2px solid white;
+
+}
+
+

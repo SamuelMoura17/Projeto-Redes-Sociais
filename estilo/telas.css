@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body::-webkit-scrollbar{
+
+    display: none;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+
+    display: block;
+
+    background-color: black;
+    background-image: url('../imagens/tela-youtube.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+p{
+
+    margin: 0;
+    padding: 15px;
+
+    background-color: darkred;
+    color: white;
+
+    text-align: center;
+
+    font-size: 10vw;
+
+}
+
+p:hover{
+
+    background-color: red;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
