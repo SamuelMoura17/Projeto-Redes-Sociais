@@ -8,11 +8,13 @@
 }
 
 body { 
-    overflow-x: hidden;
+    
+    overflow-y: scroll;
     scrollbar-width: none;
+
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
 
     display: none;
 
@@ -20,8 +22,11 @@ body::-webkit-scrollbar{
 
 img{
     height: 100%;
-    width: 100%;
     min-height: 87vh;
+
+    width: 350%;
+
+    margin-right: -50px;
 
     display: block;
 
@@ -45,6 +50,8 @@ p{
     text-align: center;
 
     font-size: 10vw;
+
+    width: 337%;
 
 }
 
