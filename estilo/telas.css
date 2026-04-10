@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
-body{
+*{
 
     padding: 0;
     margin: 0;
 
+}
+
+body { 
+    overflow-x: hidden;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar{
@@ -16,6 +21,7 @@ body::-webkit-scrollbar{
 img{
     height: 100%;
     width: 100%;
+    min-height: 87vh;
 
     display: block;
 
