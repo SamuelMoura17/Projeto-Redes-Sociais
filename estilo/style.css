@@ -52,6 +52,17 @@ div#botoes{
     position: absolute;
 
     top: 10px;
+    left: 0px;
+
+    padding: 10px;
+
+}
+
+div#botoes2{
+
+    position: absolute;
+
+    top: 10px;
     right: 0px;
 
     padding: 10px;
@@ -78,7 +89,7 @@ img.direcao{
 img.direcao:hover{
 
 
-    transform: scale(1.1) translateY(-3px) translateX(-5px);
+    transform: scale(1.1) translateY(-3px) translateX(5px);
     
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
 
@@ -86,4 +97,31 @@ img.direcao:hover{
 
 }
 
+img.direcao2{
+    width: 3.8vw;
+
+    border-radius: 50%;
+    
+    display: block;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+    border: 2px solid transparent;
+
+    transition: transform 0.3s, border 1.8s;
+
+}
+
+img.direcao2:hover{
+
+
+    transform: scale(1.1) translateY(-3px) translateX(-5px);
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+
+    border: 2px solid white;
+
+}
 
